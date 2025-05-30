@@ -1,0 +1,14 @@
+def main():
+    text = input("")
+    print(convert(text))
+
+
+def convert(text):
+    result = text.replace(":)", "😊").replace(":(", "🥲")
+    return result 
+
+main()
+
+#1 Funtion (convert) called main to prompt for user's input 
+#2 Calls convert on that input 
+#3 prints the result 

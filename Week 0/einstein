@@ -1,0 +1,10 @@
+#E = mc^2
+
+m = int(input("m: "))
+
+c = 300000000 # Speed of light in m/s
+
+def E(m):
+	return m * c**2 
+
+print(f"E: {E(m)}")
